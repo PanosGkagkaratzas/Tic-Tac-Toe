@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_bg"
+    tools:context=".Activity11">
+
+    <ImageButton
+        android:id="@+id/b6"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b10"
+        app:layout_constraintEnd_toStartOf="@+id/b7"
+        app:layout_constraintStart_toEndOf="@+id/b5"
+        app:layout_constraintTop_toBottomOf="@+id/b2"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b10"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b14"
+        app:layout_constraintEnd_toStartOf="@+id/b11"
+        app:layout_constraintStart_toEndOf="@+id/b9"
+        app:layout_constraintTop_toBottomOf="@+id/b6"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b9"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b13"
+        app:layout_constraintEnd_toStartOf="@+id/b10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b6"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b5"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b9"
+        app:layout_constraintEnd_toStartOf="@+id/b6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b3"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b7"
+        app:layout_constraintEnd_toStartOf="@+id/b4"
+        app:layout_constraintStart_toEndOf="@+id/b2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b2"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b6"
+        app:layout_constraintEnd_toStartOf="@+id/b3"
+        app:layout_constraintStart_toEndOf="@+id/b1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b7"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b11"
+        app:layout_constraintEnd_toStartOf="@+id/b8"
+        app:layout_constraintStart_toEndOf="@+id/b6"
+        app:layout_constraintTop_toBottomOf="@+id/b3"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b11"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b15"
+        app:layout_constraintEnd_toStartOf="@+id/b12"
+        app:layout_constraintStart_toEndOf="@+id/b10"
+        app:layout_constraintTop_toBottomOf="@+id/b7"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b1"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b5"
+        app:layout_constraintEnd_toStartOf="@+id/b2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b4"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b8"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b7"
+        app:layout_constraintTop_toBottomOf="@+id/b4"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b13"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toStartOf="@+id/b14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b9"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b12"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/b16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b11"
+        app:layout_constraintTop_toBottomOf="@+id/b8"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b14"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toStartOf="@+id/b15"
+        app:layout_constraintStart_toEndOf="@+id/b13"
+        app:layout_constraintTop_toBottomOf="@+id/b10"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b15"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toStartOf="@+id/b16"
+        app:layout_constraintStart_toEndOf="@+id/b14"
+        app:layout_constraintTop_toBottomOf="@+id/b11"
+        app:srcCompat="@drawable/blank" />
+
+    <ImageButton
+        android:id="@+id/b16"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/blank"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b15"
+        app:layout_constraintTop_toBottomOf="@+id/b12"
+        app:srcCompat="@drawable/blank" />
+</androidx.constraintlayout.widget.ConstraintLayout>
